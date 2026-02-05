@@ -2,16 +2,6 @@
 
 A custom 75% mechanical gaming keyboard featuring a Raspberry Pi Pico 2 microcontroller, VIA keyboard configurator support, and a rotary encoder for media control. This project combines elegant PCB design, modular mechanical construction, and open-source firmware for a fully customizable typing experience.
 
-## Features
-
-- **75% Layout**: 81 keys in a compact form factor with dedicated function row and arrow cluster
-- **Microcontroller**: Raspberry Pi Pico W with VIA firmware support for real-time key remapping
-- **Rotary Encoder**: Integrated media control knob (volume, track navigation)
-- **Hot-Swap Compatible**: Cherry MX switch sockets for easy customization
-- **Modular Mechanical Design**: Separate PCB, plate, case, and top cover for assembly flexibility
-- **Full Diode Matrix**: Per-key diodes for reliable switch detection across all 81 keys
-- **Open Source**: Schematics, PCB design files, and production assets included
-
 ## Electronics Design
 
 The HackBoard v4.0 uses a matrix-based keyboard design with a Raspberry Pi Pico W as the main controller. Each switch connects to the microcontroller through a matrix circuit, with individual SOD-123 diodes preventing ghosting and ensuring reliable key registration.
@@ -58,29 +48,6 @@ The case forms the keyboard body and houses the PCB, plate, stabilizers, and all
 
 ![Case - Bottom detail showing mounting features](images/Screenshot%202026-02-04%20214937.png)
 
-### Top Cover
-
-The polycarbonate top cover provides a transparent view of the PCB and components while protecting them from dust and accidental contact.
-
-![Top Cover Assembly - 3D visualization](images/Screenshot%202026-02-05%20151252.png)
-
-![Top Cover - Detailed assembly view](images/Screenshot%202026-02-05%20152425.png)
-
-## Final Assembly & Look
-
-The fully assembled HackBoard v4.0 showcases the integration of all mechanical and electrical components into a cohesive, functional design. The transparent top cover highlights the clean PCB layout and component quality.
-
-![Keyboard Assembly - Front view showing key layout](images/Screenshot%202026-02-05%20152441.png)
-
-![Keyboard Assembly - Top detail with rotary encoder visible](images/Screenshot%202026-02-05%20162554.png)
-
-![Keyboard - Side profile showing case thickness and profile](images/Screenshot%202026-02-05%20163222.png)
-
-![Keyboard - 3D render showing final aesthetic](images/Screenshot%202026-02-05%20163355.png)
-
-![Keyboard - Angled view highlighting PCB visibility through top cover](images/Screenshot%202026-02-05%20163637.png)
-
-![Keyboard - Bottom view showing mounting and cable routing](images/Screenshot%202026-02-05%20163813.png)
 
 ## Bill of Materials
 
